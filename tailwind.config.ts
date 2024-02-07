@@ -15,6 +15,19 @@ const config: Config = {
       },
     },
   },
+  mode: 'jit',
+  module: {
+    rules: [
+      {
+        test: /\.scss$/,
+        use: [
+          'style-loader',
+          'css-loader',
+          'sass-loader',
+        ],
+      },
+    ],
+  },
   plugins: [],
 };
 export default config;

@@ -5,7 +5,7 @@ import Header from "@/components/header/Header";
 
 export const metadata: Metadata = {
   title: "Upgrow",
-  description: "Upgrow clone",
+  description: "Upgrow clone created by Sravan",
 };
 
 export default function RootLayout({
